@@ -10,7 +10,7 @@ The data contains the following:
 218 Capuchin bird call short clips\
 594 Non-Capuchin/other birds and animal call short clips
 
-##Repository structure:
+## Repository structure:
 model > this folder contains the .ipynb file with the whole solution comprising of preprocessing, ML model, training and prediction. (Google Colab notebook)\
 results > this folder contains a .csv file with the resulting density/number of Capuchin bird calls in each forest recording.
 
@@ -19,7 +19,7 @@ The idea is to learn from the above data to be able to distinguish the Capuchin 
 
 This is my first experience with audio detection using deep learning methods. 
 
-##Future Prospect:
+## Future Prospect:
 Future ideas for this project would be to get more Capuchin bird calls data to balance out the high number of non-Capuchin bird call data. This would help in ensuring a more robust ad realistic model. I also plan to create a platform where new forest recording clips can be uploaded and analysed by this model to give the detection results. This would be helpful for the general public and ornithology enthusiasts to know about the presence of Capuchin birds.
 
 This project can further be advanced to detect a variety of different animal calls altogether. Thus, expanding the scope of detection and increasing the capacity of the model. This would involve many advancements in the model architecture and pipeline.
